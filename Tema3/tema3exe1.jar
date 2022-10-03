@@ -1,0 +1,31 @@
+public class Main{
+
+
+    //Primera Parte
+    public static int(String[] args) {
+        int result = 0;
+        result = addition(1,2,3);
+        System.out.println(result)
+    } 
+
+    public static int addition(int a, int b, int c){
+        return a + b + c
+    }
+
+    //Segunda parte
+    public static int(String[] args) {
+        Car myCar = new Car();
+        myCar.addDoors()
+        System.out.println(myCar.doors)
+    } 
+
+}
+
+class Car{
+    public int doors = 4;
+
+    public void addDoors() {
+        this.doors ++;
+    }
+
+}
