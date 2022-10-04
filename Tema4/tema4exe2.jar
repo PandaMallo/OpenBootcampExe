@@ -1,0 +1,68 @@
+public class Main {
+
+    public static void main(String[] args) {
+        // Primera Parte
+        int numif = 7;
+        if (numif > 0) {
+            System.out.println('Este numero es mayor que 0')
+        }else if (numif < 0) {
+            System.out.println('Este numero es menor que 0')
+        }else {
+            System.out.println('Este numero es igual a 0')
+        }
+    }
+
+    public static void main(String[] args) {
+        // Segunda Parte
+        int numWhile = 0;
+        while (numWhile < 3){
+            System.out.println(numWhile);
+            numWhile = numWhile + 1;
+        }
+    }
+
+    public static void main(String[] args) {
+        // Tercera Parte
+        int numDoWhile = 1;
+        
+        do {
+            System.out.println(numDoWhile);
+            numDoWhile = numDoWhile + 1;
+        }while (numDoWhile < 3);    
+    }
+            
+
+    public static void main(String[] args) {
+        // Cuarta Parte
+        int numFor = 0;
+            
+        for (numFor ; numFor <= 3; numFor = numFor + 1){
+            System.out.println(numFor);
+        }
+    }
+
+        public static void main(String[] args) {
+        // Quinta Parte
+        var season = 'VERANO';
+
+        switch (season) {
+            case 'VERANO':
+                System.out.println('Es Verano');
+                break;
+            case 'INVIERNO':
+                System.out.println('Es Invierno');
+                break;
+            case 'PRIMAVERA':
+                System.out.println('Es Primavera');
+                break;
+            case 'OTOÑO':
+                System.out.println('Es Otoño');
+                break;
+            default:
+                System.out.println('Esto no es una estación. Revisa la Info');
+        }
+    }
+                
+            
+
+}
